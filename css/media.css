@@ -24,12 +24,60 @@
 	.adapt-site{
 		display: block;
 	}
+	footer > .d-flex{
+		display: block !important;
+		text-align: center;
+	}
+	footer .main_list ul{
+		max-width: none;
+	}
+	footer .main_list ul li{
+		margin-right: 80px;
+	}
+	footer > div > div.socil.d-flex.jcsb{
+		justify-content: center !important;
+	}
+	footer .phone{
+		display: block !important;
+		text-align: center;
+		margin-top: 10px;
+	}
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
+	footer .main_list ul li{
+		margin: 0 20px;
+	}
+}
+@media (max-width: 520px) {
 	.adapt-site{
 		display: none !important;
 	}
-	.mobile-header{
-		display: block;
+	.mobile-header, .footer-show{
+		display: block !important;
+	}
+	.footer-hide{
+		display: none;
+	}
+	footer .main_list ul{
+		display: block !important;
+	}
+	footer .main_list ul li {
+		height: 70px;
+	}
+	body > footer > div > div.socil.d-flex.jcsb, footer .socil img{
+		display: block !important;
+	}	
+	footer .socil{
+		position: absolute;
+		position: absolute;
+		right: 0;
+		margin-top: -58%;
+	}
+	body > footer > div > div.socil.d-flex.jcsb > img:nth-child(1){
+		margin-left: -5px;
+		margin-bottom: 17px;
+	}
+	body > footer > div > div.socil.d-flex.jcsb > img:nth-child(2){
+		margin-bottom: 17px;
 	}
 }

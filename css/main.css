@@ -159,3 +159,39 @@ a:hover{
 		left: -320px;
 	}
 }
+
+footer{
+	background: #70908B;
+}
+footer .rights p{
+	font-size: 9px;
+	color: #fff;
+	position: relative;
+	left: 0;
+	bottom: -46px;
+}
+footer .phone{
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-family: sans-serif;
+}
+footer .rights .logo{
+	position: relative;
+	top: 20px;
+}
+footer .main_list{
+	text-transform: uppercase;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 16px;
+}
+footer .main_list ul li a{
+	color: #fff !important;
+	margin-top: 18px;
+}
+.footer-show{
+	display: none;
+}
+.color-white{
+	color: #fff;
+}
