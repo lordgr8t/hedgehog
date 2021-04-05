@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	
+	<section class="main" style="background-image: url(img/bg.svg);">
+
+		<header>
+			<div class="container">
+				
+				<div class="row mainheader">
+					<div class="col-1 aic d-flex">
+						<img src="img/logo.svg">
+					</div>
+					<div class="col-8 main_list">
+						<ul>
+							<li><a class="drop-point" href="#">Каталог</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Галерея</a></li>
+						</ul>
+					</div>
+					<div class="col-3 header__contact">
+						<div class="d-flex jcsb">
+							<div>
+								<img src="img/phone.svg">
+								<span class="main__phone"><a href="#">+7 (965) 569-89-98</a></span>
+							</div>
+							<div class="main__basket aic d-flex">
+								<img src="img/basket.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="adapt-site">
+				<div class="adapt-site__top d-flex jcc">
+					<div class="logo mt-30"><img src="img/logo.svg"></div>
+					<img class="mr-5 ml-5" src="img/phone.svg">
+					<div class="main__basket aic d-flex">
+						<img src="img/basket.svg">
+					</div>
+				</div>
+				<div class="adapt-site__bottom">
+					<ul>
+						<li><a class="drop-point" href="#">Каталог</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Галерея</a></li>
+					</ul>
+				</div>
+			</div>	
+
+			<div class="mobile-header">
+				<div class="d-flex jcsb">
+					<img onclick="openmenu()" src="img/burger.svg">
+					<div class="d-flex jcc">
+						<img class="mr-5" src="img/logo_m.svg">
+						<img src="img/call_m.svg">
+						<div class="main__basket aic d-flex">
+							<img src="img/basket.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mobile-header-content ">
+				<div class="mobile-header-content__head">
+					<img onclick="closemenu()" src="img/x.svg">
+					<img class="logo" src="img/logo_m.svg">
+				</div>
+				<ul class="mt-5">
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Галерея</a></li>
+				</ul>
+				<div class="phone">
+					+7 (965) 569-89-98
+				</div>
+			</div>
+		</header>
+		
+	</section>
+
+<script>
+	function openmenu(){
+	$('.mobile-header-content').removeClass("mobile-header-content-close");
+	$('.mobile-header-content').addClass("mobile-header-content-open");
+}
+
+function closemenu(){
+	$('.mobile-header-content').removeClass("mobile-header-content-open");	
+	$('.mobile-header-content').addClass("mobile-header-content-close");
+}
+</script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+</body>
+</html>

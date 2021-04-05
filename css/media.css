@@ -1,0 +1,35 @@
+@media (max-width: 1600px) {
+	.main_list ul{
+		float: none;
+	}
+	div.col-8.main_list{
+		-ms-flex: 0 0 66.666667%;
+		flex: 0 0 47%;
+		max-width: 47%;
+	}
+	.header__contact{
+		flex: 0 0 43% !important;
+		max-width: 43% !important;
+		float: right;
+	}
+	.col-3.header__contact > .jcsb{
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 1380px) {
+	.mainheader{
+		display: none !important;
+	}
+	.adapt-site{
+		display: block;
+	}
+}
+@media (max-width: 500px) {
+	.adapt-site{
+		display: none !important;
+	}
+	.mobile-header{
+		display: block;
+	}
+}
