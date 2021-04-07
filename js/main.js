@@ -48,8 +48,3 @@ $('.slider-form__slider').slick({
 $("body > section.slider-form > div > button.slick-prev.slick-arrow").text(" ").append('<img src="./img/arrow_back.svg"; />');
 $("body > section.slider-form > div > button.slick-next.slick-arrow").text(" ").append('<img src="./img/arrow_next.svg"; />'); 
 
-// dell
-// $("body > section.slider-form > div > button.slick-prev.slick-arrow").hide();
-// $("body > section.slider-form > div > button.slick-next.slick-arrow").hide();
-// dell
-
