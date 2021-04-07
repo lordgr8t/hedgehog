@@ -235,9 +235,7 @@ footer .main_list ul li a{
 	margin-top: 80px;
 }
 
-.main__content__aboutitems .item{
-	max-width: 182px;
-}
+
 .main__content__aboutitems .item .title{
 	color: #195557;
 	text-transform: uppercase;
@@ -264,6 +262,9 @@ body > section > img.hedgehod2{
 
 .slider-form{
 	margin-top: 300px;
+}
+.slide{
+	background-repeat: no-repeat;
 }
 .slider-form__slider{
 	max-width: 1100px;
@@ -410,9 +411,8 @@ body > section.slider-form > div > button.slick-next.slick-arrow{
 }
 body > section.slider-form > div.slider-form__form > form > div.btn{
 	margin: 0 auto;
-	width: 100%;
+	width: 328px;
 	background: #70908B;
-	max-width: 328px;
 	border-radius: 40px;
 	height: 69px;
 	padding: 23px;
@@ -446,4 +446,19 @@ body > section.slider-form > div.slider-form__form > form > div.btn{
 	font-family: Raleway;
 	color: #195557;
 	margin: 30px auto 60px auto;
+}
+.ej{
+	position: absolute;
+	right: 0;
+	top: 57%;
+}
+.mobile-show{
+	display: none ;
+}
+.mobile-hide{
+	display: block ;
+}
+.mobile-show-flex,
+body > section.main > div > div.main__content__aboutitems.d-flex.jcsb > div.d-flex.text-center.ml-2.mr-2.jcsb.mobile-show-flex{
+	display: none !important;
 }
